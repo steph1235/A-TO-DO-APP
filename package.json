@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "5.7",
+    "mongoose": "^7.4.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node  index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd frontend && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
